@@ -1,0 +1,59 @@
+.favPage {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: white;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  /* to be improved */
+}
+.container-fav {
+  display: flex;
+  flex-direction: column;
+}
+.container-fav h2 {
+  margin: 2rem;
+}
+.movie-fav-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  /* added new */
+  justify-content: center;
+}
+.poster-container-fav {
+  position: relative;
+  transition: all 0.2s ease;
+  /* added new */
+  max-width: 100vw;
+}
+.poster-container-fav:hover {
+  transform: scale(1.05);
+}
+.poster-container-fav img {
+  position: relative;
+  object-fit: cover;
+  /* added new */
+  max-width: 100vw;
+}
+.movie-title-fav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.851);
+  color: white;
+  width: 100%;
+}
+.form-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  margin: 1rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.form-close:hover {
+  transform: scale(1.5);
+}

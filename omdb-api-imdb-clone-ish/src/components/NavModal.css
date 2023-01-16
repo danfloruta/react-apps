@@ -1,0 +1,24 @@
+@media screen and (min-width: 400px) {
+  .modal-for-nav {
+    background-color: transparent;
+    transform: translateY(0.8rem);
+  }
+  .nav-modal-link {
+    background-color: #3a999c;
+  }
+  .nav-modal-link:hover {
+    transform: translateY(-0.2rem);
+    transition: all 0.3s ease;
+    color: rgb(249, 191, 31);
+  }
+  .active {
+    background-color: rgb(249, 191, 31);
+    transform: translateY(-0.2rem);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .modal-for-nav {
+    display: none;
+  }
+}

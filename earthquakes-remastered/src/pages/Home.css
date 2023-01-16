@@ -1,0 +1,42 @@
+@media screen and (min-width: 500px) {
+  .home {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .home {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.quakesContainer {
+  overflow: scroll;
+  height: 60vh;
+  max-width: 40rem;
+  margin: 1rem;
+  overflow-x: hidden;
+}
+.buttons {
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+}
+.button {
+  background-color: #48aaad;
+  border: transparent;
+  margin: 0.2rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  color: white;
+  font-size: 1rem;
+}
+.button:active {
+  background-color: #23585a;
+}

@@ -1,0 +1,64 @@
+@media screen and (min-width: 400px) {
+  .modal-for-nav,
+  .modal-nav {
+    display: flex;
+    gap: 1rem;
+    padding: 0.3rem;
+    color: white;
+    text-decoration: none;
+  }
+  .modal-nav {
+    background: #141414;
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+  }
+  .nav-hide-small {
+    display: none;
+  }
+  .nav-hide-big {
+    margin-right: 1rem;
+  }
+}
+.menu-hamburger {
+  cursor: pointer;
+}
+.navbar {
+  background-color: #141414;
+  padding: 0.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+.navbar h4 {
+  padding-left: 0.5rem;
+  color: rgb(206, 87, 87);
+}
+.logo-home-check,
+.reports-submit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  margin-right: 1rem;
+}
+@media screen and (min-width: 992px) {
+  /* .modal-for-nav {
+    display: none;
+  } */
+  .nav-hide-small {
+    display: block;
+  }
+  .nav-hide-big {
+    display: none !important;
+    /* display: none; */
+  }
+  .modal-for-nav,
+  .modal-nav {
+    display: none;
+  }
+}

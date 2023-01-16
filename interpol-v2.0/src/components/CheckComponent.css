@@ -1,0 +1,90 @@
+.check-tool-container {
+  width: 420px;
+  max-width: 90vw;
+  height: 420px;
+  max-width: 90vw;
+  /* margin: 2rem; */
+  border: 1px solid #141414;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  -webkit-box-shadow: 10px 10px 19px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 19px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 19px -7px rgba(0, 0, 0, 0.75);
+}
+@media screen and (min-width: 400px) {
+  .check-tool-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.check-tool-header h3 {
+  color: rgb(218, 0, 0);
+}
+.check-tool-header {
+  border-bottom: 1px solid #141414;
+}
+.detail {
+  display: flex;
+  flex-direction: column;
+}
+.firstName label,
+.lastName label,
+.nationality label,
+.sex {
+  font-weight: 700;
+}
+.firstName input,
+.lastName input,
+.nationality input {
+  border-radius: 0.3rem;
+  border: 1px solid #141414;
+  padding: 0.2rem;
+}
+.nationality input {
+  padding: 0px;
+  padding-left: 0.2rem;
+}
+.nationality {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+.age {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 3rem;
+}
+.age-min,
+.age-max {
+  display: flex;
+  flex-direction: column;
+}
+.sex-fe-ma {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.female,
+.male {
+  display: flex;
+  gap: 0.2rem;
+}
+.female label,
+.male label {
+  font-weight: 400;
+}
+.firstName,
+.lastName,
+.nationality {
+  border-bottom-color: transparent;
+}
+.age {
+  border-bottom: 1px solid transparent;
+}
+.buttons-check-component {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}

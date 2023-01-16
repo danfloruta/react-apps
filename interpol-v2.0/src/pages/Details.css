@@ -1,0 +1,62 @@
+.container {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.details-detail {
+  border: 2px solid #141414;
+  border-radius: 0.5rem;
+  padding: 0.1rem;
+
+  width: 400px;
+  height: 400px;
+}
+.detail {
+  width: 100%;
+  padding: 0.2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #454545;
+}
+.detail:last-child {
+  border-bottom: transparent;
+}
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+.photo {
+  border: 2px solid #141414;
+  max-width: 400px;
+  height: 400px;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+}
+.details-n-photo {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+@media screen and (min-width: 992px) {
+  .details-n-photo {
+    justify-content: space-between;
+    margin: 2rem;
+  }
+}
+.charges-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.arrest-warrants button {
+  margin: 1rem;
+}
+.issue-country {
+  display: block;
+  width: 100%;
+}

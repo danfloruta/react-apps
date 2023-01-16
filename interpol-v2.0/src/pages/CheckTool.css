@@ -1,0 +1,17 @@
+@media screen and (min-width: 400px) {
+  .check-grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 90vw;
+    gap: 2rem;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .check-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

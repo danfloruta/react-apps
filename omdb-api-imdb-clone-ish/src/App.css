@@ -1,0 +1,16 @@
+.App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #141414;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.activeNav {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+}

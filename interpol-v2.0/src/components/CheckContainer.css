@@ -1,0 +1,23 @@
+.check-container {
+  width: 500px;
+  max-width: 90vw;
+  height: 40rem;
+  overflow: scroll;
+  margin-top: 2rem;
+  margin: auto;
+  /* margin-left: 2rem; */
+}
+
+.check-container-header {
+  background-color: rgb(213, 0, 0);
+  color: white;
+  display: flex;
+  justify-content: center;
+  border-radius: 0.4rem;
+  width: 100%;
+}
+.check-container-body {
+  width: 100%;
+  min-height: 100%;
+  overflow-y: scroll;
+}

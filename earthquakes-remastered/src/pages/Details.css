@@ -1,0 +1,39 @@
+.detail {
+  background-color: #48aaad;
+  margin: 1rem;
+  max-width: 40rem;
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+}
+@media screen and (min-width: 400px) {
+  .containmentBoth {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 992px) {
+  .containmentBoth {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.map {
+  width: 90vw;
+  max-width: 40rem;
+  padding-top: 1rem;
+}
+.mag-map {
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+.detailsContainer {
+  display: grid;
+  justify-content: center;
+  padding-top: 1rem;
+}
+.button {
+  width: 12rem;
+}

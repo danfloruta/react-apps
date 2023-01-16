@@ -1,0 +1,24 @@
+footer {
+  color: white;
+  background-color: #3a999c;
+  margin: 0;
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  /* added new */
+  width: 100%;
+}
+.icons {
+  list-style-type: none;
+  display: flex;
+  gap: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+
+.icons a {
+  transform: scale(0.55);
+}

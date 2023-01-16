@@ -1,0 +1,33 @@
+.home {
+  max-width: 1450px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+}
+.select-list {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem;
+}
+.list-map {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.choose-n-total {
+  margin-right: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pagination-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.pagination-div h5 {
+  cursor: pointer;
+}

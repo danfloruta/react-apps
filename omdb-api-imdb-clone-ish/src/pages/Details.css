@@ -1,0 +1,49 @@
+.detailsPage {
+  color: white;
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.btn {
+  color: white;
+  font-weight: bold;
+}
+.rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rating-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.poster-details {
+  width: 30rem;
+  max-width: 80vw;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 500px) {
+  .poster-adwg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .poster-adwg {
+    flex-direction: row;
+  }
+}
+.genre {
+  display: flex;
+  flex-direction: row;
+  gap: 0.7rem;
+}
+.plot {
+  max-width: 400px;
+}

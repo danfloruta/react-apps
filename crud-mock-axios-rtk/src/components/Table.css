@@ -1,0 +1,36 @@
+.body {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  height: 100%;
+  border-bottom: 0.5px solid #555;
+  align-items: center;
+}
+.header {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  border-bottom: 0.5px solid #555;
+}
+
+table {
+  border: 2px solid #48aaad;
+  width: 80vw;
+  max-width: 1200px;
+  min-height: 300px;
+  margin: 0.5rem;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+th {
+  border-bottom: 1px solid black;
+}
+
+td {
+  text-align: center;
+}
+.table-container {
+  background-color: #48aaad;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 26px 1px rgba(0, 0, 0, 0.84);
+}

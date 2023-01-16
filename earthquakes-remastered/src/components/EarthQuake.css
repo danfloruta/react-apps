@@ -1,0 +1,36 @@
+.eq-container {
+  background-color: #48aaad;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+.mag-title-cont {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.p-mag {
+  color: black;
+  width: 3rem;
+  height: 3rem;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p-title {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+.btn-container {
+  display: flex;
+  justify-content: end;
+}
+.btn-details {
+  color: black;
+  font-size: 1.2rem;
+}

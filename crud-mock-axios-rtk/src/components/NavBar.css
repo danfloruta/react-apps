@@ -1,0 +1,13 @@
+.navbar ul a {
+  text-decoration: none;
+  color: white;
+}
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  width: 80vw;
+  max-width: 1200px;
+  justify-content: center;
+  margin-bottom: 0;
+}
