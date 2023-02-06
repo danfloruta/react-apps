@@ -61,12 +61,16 @@ export const getDataSelf = (url) => {
   return async (dispatch) => {
     const getSelf = async () => {
       const response = await axios.get(url);
+      console.log(url);
 
       return response.data;
     };
     try {
       const data = await getSelf();
-      // console.log(data);
+      console.log(data);
+      if (data._links.thumbnail.href.includes("yellow")) {
+        dispatch(listActions.getDetailsYellow(data));
+      }
       dispatch(listActions.getDetails(data));
     } catch (error) {
       console.error(error);

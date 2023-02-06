@@ -28,22 +28,44 @@ const listSlice = createSlice({
     },
     getDetails(state, action) {
       const newItem = action.payload;
+      console.log(newItem);
+
       state.details = {};
 
       state.details = {
-        forename: newItem.forename,
-        name: newItem.name,
-        eyeColor: newItem.eyes_colors_id,
-        weight: newItem.weight,
-        height: newItem.height,
-        birthdate: newItem.date_of_birth,
-        country: newItem.country_of_birth_id,
-        sex: newItem.sex_id,
-        placeOfBirth: newItem.place_of_birth,
-        nationalities: newItem.nationalities,
-        images: newItem._links.thumbnail.href,
-        issuingCountry: newItem.arrest_warrants[0].issuing_country_id,
-        charge: newItem.arrest_warrants[0].charge,
+        forename: newItem.forename || null,
+        name: newItem.name || null,
+        eyeColor: newItem.eyes_colors_id || null,
+        weight: newItem.weight || null,
+        height: newItem.height || null,
+        birthdate: newItem.date_of_birth || null,
+        country: newItem.country_of_birth_id || null,
+        sex: newItem.sex_id || null,
+        placeOfBirth: newItem.place_of_birth || newItem.place_of_birth || null,
+        nationalities: newItem.nationalities || null,
+        images: newItem._links.thumbnail?.href || null,
+        issuingCountry: newItem?.arrest_warrants[0]?.issuing_country_id || null,
+        charge: newItem?.arrest_warrants[0]?.charge || null,
+      };
+    },
+    getDetailsYellow(state, action) {
+      const newItem = action.payload;
+      console.log(newItem);
+
+      state.details = {};
+
+      state.details = {
+        forename: newItem.forename || null,
+        name: newItem.name || null,
+        eyeColor: newItem.eyes_colors_id || null,
+        weight: newItem.weight || null,
+        height: newItem.height || null,
+        birthdate: newItem.date_of_birth || null,
+        country: newItem.country_of_birth_id || null,
+        sex: newItem.sex_id || null,
+        placeOfBirth: newItem.place_of_birth || newItem.place_of_birth || null,
+        nationalities: newItem.nationalities || null,
+        images: newItem._links.thumbnail?.href || null,
       };
     },
   },
